@@ -1,0 +1,203 @@
+*{
+    font-family: roboto , sans-serif;
+}
+
+/* NAVBAR */
+
+header{
+    position: fixed;
+    padding: 0 24px 0 24px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: calc(100% - 48px);
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+#logo-div{
+    display: inline-flex;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    padding-left: 16px;
+    color: #4a4a4a;
+    font-size: 1.2em;
+}
+#text-logo-part-color{
+    color: lightgray;
+}
+
+/* FIRST SCREEN */
+
+.first-screen{
+    background:#D8D8D8;
+    width: calc(100% - 48px);
+    padding: 64px 24px 0 24px;
+    left: 0;
+    display: flex;
+}
+.first-screen img{
+    width: 60%;
+    margin-top: 32px;
+    display: inline;
+    padding-bottom: 32px;
+}
+.right-of-the-page{
+    margin-left: 24px;
+    align-self: center;
+}
+.right-of-the-page h1{
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #4a4a4a;
+}
+.right-of-the-page p{
+    font-size: 1.7rem;
+    margin: 20px 0;
+    color: #4a4a4a;
+}
+.right-of-the-page button{
+    padding: 16px 40% 16px 40%;
+    background: #4a4a4a;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* SECOND SCREEN */
+
+.second-screen{
+    background: #f3f5f5;
+    width: calc(100% - 48px);
+    padding: 64px 24px 0 24px;
+    left: 0;
+    display: grid;
+    grid-template-columns:60% 40%;
+}
+.container{
+    border: solid 2px lightgray;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.container h4{
+    font-size: 1.3rem;
+    color: #4a4a4a;
+}
+.left-side-second-screen{
+    display: inline-flex;
+    flex-direction: column;
+}
+.second-screen img{
+    width: 100%;
+}
+.second-screen h1{
+    font-size: 3rem;
+    color: #4a4a4a;
+    margin: 32px 0 24px 0;
+}
+.second-screen p{
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    font-weight: 300;
+}
+#little-description{
+    font-size: .8rem;
+}
+.small-container{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: center;
+    border-bottom: 2px lightgray solid;
+}
+.small-container img{
+    margin-left: 16px;
+    width: 80%;
+}
+.small-container section{
+    margin-left: 45px;
+}
+#trzeci-maly{
+    background-color: lightgray;
+}
+
+/* THIRD SCREEN*/
+.third-screen{
+    text-align: center;
+    padding: 32px 0 32px 0;
+    background-color: lightgray;
+}
+.third-screen h1{
+    margin-bottom: 32px;
+    color: #4a4a4a;
+    font-size: 2.4rem;
+}
+.flexbox-third-screen{
+    display: flex;
+    margin: 0 72px 0 72px;
+    width: calc(100% - 144px);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+.flexbox-third-screen div{
+    width: 31%;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 32px;
+}
+.flexbox-third-screen h6, .flexbox-third-screen p{
+    margin-left: 16px;
+    color: #4a4a4a;
+}
+.flexbox-third-screen h6{
+    font-size: 1.5rem;
+    margin: 20px auto 20px 16px;
+}
+.flexbox-third-screen p{
+    font-weight: 300;
+}
+video{
+    height: 55vh;
+}
+.fourth-screen #pierwszy-maly{
+    background-color: lightgray;
+}
+.fourth-screen .container{
+    border: none;
+}
+
+/*END OF THE FOURTH SCREEN*/ 
+
+footer{
+    width: calc( 100% - 48px);
+    padding:0 24px 0 24px;
+    border-top: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    background-color:#f3f5f5;
+}
+footer p{
+    color: #4a4a4a;
+}
+footer a{
+    text-decoration: none;
+    color: #4a4a4a;
+    padding-left: 20px;
+}
+footer section{
+    display: inline-flex;
+}
+
+@media only screen and (max-width:754px){
+    .right-of-the-page h1{
+        font-size: 3rem;
+    }
+}
